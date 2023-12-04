@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <!DOCTYPE html>
+
+
+
+<head>
+    <title>catmap搜索</title>
+    <style>
+        @font-face {
+        font-family: 'MyCustomFont';
+        src: url('ZCOOLKuaiLe-Regular.ttf') format('truetype');
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #96d3e1;
+        }
+
+        .header {
+            background-color: #96d3e1;
+            padding: 10px 0;
+        }
+
+        .search-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .search-box {
+            font-family: 'MyCustomFont', sans-serif;
+            font-size: 20px;
+            width: 500px;
+            line-height: 40px;
+            margin-bottom: 20px;
+        }
+
+        .search-button {
+            font-family: 'MyCustomFont', sans-serif;
+            font-size: 20px;
+            width: 100px;
+            height: 40px;
+            background-color: #3385ff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .search-button:hover {
+            background-color: #2d78f4;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="logo.png" alt="Logo" style=" height: 350px; width: 350px;"> <!-- 替换为您的Logo路径 -->
+    </div>
+    <div class="search-container">
+        <form action="URL" method="get">
+            <input type="text" name="search" class="search-box" placeholder="search">
+            <input type="submit" value="喵一下" class="search-button">
+        </form>
+    </div>
+</body>
+
+
+
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
